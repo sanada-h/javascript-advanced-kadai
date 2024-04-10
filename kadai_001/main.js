@@ -79,7 +79,6 @@ const keyPress = e => {
 // タイピングスキルのランクを判定
 const rankCheck = score => {
 
-    return `${score}文字打てました！`;
     
     // テキストを格納する変数を作る
     let text = '';
